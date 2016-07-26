@@ -1,0 +1,15 @@
+.contactItem {
+  background: #eee;
+  width: 250px;
+  height: 80px;
+}
+
+.contactImage {
+  float: left;
+  width: 80px;
+  height: auto;
+}
+
+.contactName {
+
+}
