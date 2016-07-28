@@ -17,6 +17,7 @@ class App extends Component {
     fetch('http://addressbook-api.herokuapp.com/contacts')
     .then(response => response.json())
     .then(responseData => {
+      responseData.contacts.push({first: "Cassio"})
       this.setState({contacts:responseData.contacts})
     });
   }

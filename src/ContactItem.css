@@ -13,3 +13,8 @@
 .contactName {
 
 }
+
+.contactEmail {
+    color: #aaa;
+    font-size: 9px;
+}
